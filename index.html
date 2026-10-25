@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimra's Login & Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <div class="container" id="container">
+        <!-- Sign Up Form -->
+        <div class="form-container signup-container">
+            <form>
+                <h2>Step In & Rise!</h2>
+                <div class="social-login">
+                    <div class="social-btn">f</div>
+                    <div class="social-btn">G</div>
+                    <div class="social-btn">in</div>
+                </div>
+                <span style="color: rgba(255,255,255,0.7); font-size: 14px; margin-bottom: 15px;">or use email for registration</span>
+                <div class="input-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button type="submit">Sign Up</button>
+                <div id="formMessage" class="form-message" role="status" aria-live="polite" hidden></div> <div id="formMessage" class="form-message" role="status" aria-live="polite" hidden></div>
+            </form>
+        </div>
+
+        <!-- Sign In Form -->
+        <div class="form-container login-container">
+            <form>
+                <h2>Sign in to Shine!</h2>
+                <div class="social-login">
+                    <div class="social-btn">f</div>
+                    <div class="social-btn">G</div>
+                    <div class="social-btn">in</div>
+                </div>
+                <span style="color: rgba(255,255,255,0.7); font-size: 14px; margin-bottom: 15px;">or use your account</span>
+                <div class="input-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <a href="#" class="forgot-password">Forgot your password?</a>
+                <button type="submit">Sign In</button>
+                <div id="loginMessage" class="form-message success" role="status" aria-live="polite" hidden></div>
+
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Ready to Slay again!</h1>
+                    <p>Sign in and Enjoy the Seamless Experience you deserve.</p>
+                    <button class="ghost-btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Welcome to Excellence!</h1>
+                    <p>Your Premium Experience starts now.
+                        <br>
+                        Create your account to begin.</p>
+                    <button class="ghost-btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
