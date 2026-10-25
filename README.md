@@ -38,7 +38,7 @@ login-signup-page/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/NimraGhias/frontend-sign-in-sign-up-.git
 ```
 
 ### 2. Open the project folder
@@ -55,11 +55,11 @@ Open `index.html` in your browser, or use the **Live Server** extension in Visua
 
 | Password | Result |
 |---|---|
-| `Nimra@123` | Passes the password rules |
-| `nimra@123` | Missing uppercase letter |
-| `NIMRA@123` | Missing lowercase letter |
+| `Nimra193!` | Passes the password rules |
+| `nimra124!` | Missing uppercase letter |
+| `NIMRA122!` | Missing lowercase letter |
 | `Nimraaaaa` | Missing number and special character |
-| `Ni@1` | Too short and missing required character types |
+| `Ni1!` | Too short and missing required character types |
 
 *Use these examples for testing only, not as real account passwords.*
 
@@ -80,12 +80,3 @@ This project helped me practise:
 - Creating CSS animations and interactive UI effects
 - Debugging and improving a frontend project
 
-## 👩‍💻 Author
-
-**Nimra Ghias**
-
-BS Information Technology Student | Frontend Development Learner
-
-## 📄 License
-
-This project is available for educational and learning purposes. Add a license file if you want to specify the terms under which others may use or modify your code.
